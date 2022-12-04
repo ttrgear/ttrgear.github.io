@@ -1,0 +1,60 @@
+.bgimage {
+    height: 100vh;
+    background: url('/assets/images/Untitled Trees.jpg');
+    background-size:cover;
+    position:relative;
+}
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+#about {
+    background-color:  darkgray;
+    box-sizing: border-box;
+}
+
+#about-me2 {
+    background-color: lightgray;
+}
+
+#work {
+    display: block;
+    box-sizing: border-box;
+
+}
+.bg-2{
+    background-color: darkgray;
+}
+
+.container-fluid {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.mb-md-0, my-md-0 {
+    margin-bottom: 0!important;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 50%;
+}
